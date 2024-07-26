@@ -42,8 +42,7 @@ class ReversedLinkedList{
         currNode.next = newNode;
     }
 
-        //printList
-
+    //printList
     public void printList(){
         if(head == null){
             System.out.println("list is empty");
